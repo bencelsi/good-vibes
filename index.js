@@ -1,6 +1,6 @@
 (function() {
 	"use strict";
-	const FRAME_PATH = "assets/frames/"
+	const FRAME_PATH = "assets/frames/test2/"
 	const GIF_PATH = "assets/gifs/"
 	const OTHER_PATH = "assets/other/"
 	const AUDIO_PATH = "assets/audio/"
@@ -49,7 +49,13 @@ const frames = {
 	},12:{//12
 		left: 11, right: 9
 	},13:{//13
-		forward: 4
+		left: 16, right: 14
+	},14:{
+		left: 13, right: 15
+	},15:{
+		left: 14, right: 16
+	},16:{
+		left: 15, right: 13
 	}
 }
 
