@@ -22,6 +22,9 @@
 		initController();
 	};
 
+
+//Make boxes objects that can inherit/overrride properties
+
 //MODEL DATA
 const frames = { 
 	1:{//1
@@ -31,7 +34,7 @@ const frames = {
 	},3:{//3
 		left: 2, right: 4
 	},4:{//4
-		left: 3, right: 1
+		left: 3, right: 1, forward: 16
 	},5:{//5
 		left: 8, right: 6
 	},6:{//6
@@ -51,7 +54,7 @@ const frames = {
 	},13:{//13
 		left: 16, right: 14
 	},14:{
-		left: 13, right: 15
+		left: 13, right: 15, forward: 2
 	},15:{
 		left: 14, right: 16
 	},16:{
